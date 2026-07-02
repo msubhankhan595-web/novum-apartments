@@ -20,9 +20,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Triad UCity Apartments | Luxury Living in Philadelphia",
+  title: "Novum Apartments | Modern Living in Philadelphia",
   description:
-    "Discover Triad Ucity Apartments  a collection of premium residences in the heart of Philadelphia, offering refined architecture, curated amenities, and timeless design.",
+    "Discover Novum Apartments, a modern collection of newly constructed residences in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
 };
 
 export default function RootLayout({

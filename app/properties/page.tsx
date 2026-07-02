@@ -24,8 +24,8 @@ export default function PropertiesPage() {
       {/* Page Hero */}
       <PageHero
         eyebrow="The Residences"
-        title="Forty residences. One UCity address."
-        description="A luxurious collection of newly constructed residences on Lancaster Avenue, each crafted with refined materials and thoughtful proportions."
+        title="Modern residences. Thoughtfully designed."
+        description="Explore newly constructed apartments designed with quality interiors, practical comforts, and a connected Philadelphia address."
         image="/images/home/facadegallery.jpg"
         imageAlt="Triad UCity Apartments residence interior"
       />

@@ -1,60 +1,58 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://triaducity.com"),
+  metadataBase: new URL("https://novumapts.com"),
 
   title: {
-    default: "Triad UCity Apartments | Luxury Living in Philadelphia",
-    template: "%s | Triad UCity Apartments",
+    default: "Novum Apartments | Modern Living in Philadelphia",
+    template: "%s | Novum Apartments",
   },
 
   description:
-    "Triad Apartments offers 40 newly constructed luxury residences on Lancaster Avenue in Philadelphia. Studios, 1, and 3 bedroom floor plans from $1,700/mo.",
+    "Novum Apartments offers newly constructed modern residences in Philadelphia with quality interiors, thoughtful layouts, and everyday comfort.",
 
   keywords: [
     "luxury apartments Philadelphia",
-    "apartments Lancaster Avenue Philadelphia",
     "Philadelphia apartments for rent",
-    "University City apartments",
-    "apartments near Drexel University",
     "studio apartments Philadelphia",
     "1 bedroom apartments Philadelphia",
     "2 bedroom apartments Philadelphia",
     "newly constructed apartments Philadelphia",
-    "Triad Apartments",
-    //"3 bedroom apartments Philadelphia",
     "1 month free rent Philadelphia",
     "Apartments for students Philadelphia", 
     "Apartmetns with good amenities Philadelphia", 
+    "Novum Apartments", 
+    "Fishtown apartments", 
+    "Berks Street apartments",
     "Rooftop apartements Philadelphia",
-    "apartments near UPenn Philadelphia",
+    "Apartments in 19125",
   ],
 
-  authors: [{ name: "Triad UCity Apartments" }],
+  authors: [{ name: "Novum Apartments" }],
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://triaducity.com",
-    siteName: "Triad UCity Apartments",
-    title: "Triad UCity Apartments | Luxury Living in Philadelphia",
+    url: "https://novumapts.com",
+    siteName: "Novum Apartments",
+    title: "Novum Apartments | Modern Living in Philadelphia",
     description:
-      "40 newly constructed luxury residences on Lancaster Avenue, Philadelphia. Studios to 2-bedroom floor plans from $1,700/mo.",
+      "Newly constructed modern residences in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
     images: [
       {
         url: "/images/home/finalctatriad.jpg",
         width: 1200,
         height: 630,
-        alt: "Triad UCity Apartments — Luxury Living in Philadelphia",
+        alt: "Novum Apartments — Modern Living in Philadelphia",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Triad UCity Apartments | Luxury Living in Philadelphia",
+    title: "Novum Apartments | Modern Living in Philadelphia",
     description:
-      "40 newly constructed luxury residences on Lancaster Avenue, Philadelphia.",
+      "Newly constructed modern residences in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
     images: ["/images/home/finalctatriad.jpg"],
   },
 

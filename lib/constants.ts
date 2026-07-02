@@ -436,7 +436,7 @@ export const PROMO_BAR = {
     },
     {
       text: "Newly completed in 2024 · Lancaster Avenue, Philadelphia",
-      linkText: "Discover Triad",
+      linkText: "Discover Novum",
       href: "/about",
     },
   ],
@@ -448,69 +448,70 @@ export const PROMO_BAR = {
 export const ABOUT_PAGE = {
   hero: {
     eyebrow: "Our Story",
-    title: "A residence built without compromise.",
+    title: "A modern residence, thoughtfully designed.",
     description:
-      "Triad was not built to fill a lot. It was built to set a new standard for what residential living on Lancaster Avenue could be.",
+      "Novum brings newly constructed apartments, quality interiors, and everyday comfort to a connected Philadelphia address.",
     image:
       "/images/home/rooftoptriad.jpg",
-    imageAlt: "Architectural detail of Triad UCity Apartments",
+    imageAlt: "Architectural detail of Novum Apartments",
   },
 
   introduction: {
     eyebrow: "Introduction",
-    title: "Forty homes. One uncompromising standard.",
+    title: "Designed around the details that matter everyday.",
     paragraphs: [
-      "Triad began with a simple observation, that the corridor of Lancaster Avenue deserved a residential building that took its surroundings seriously. Not a compromise. Not a template. A luxurious residence sized for the neighborhood it joined.",
-      "Completed in 2024, the building delivers forty homes across thirteen floor plans and four levels. Each was drawn with the same conviction, that proportion, light, and material are the difference between a place to live and a place to come home to.",
+      "Novum was created with a simple purpose: to offer modern apartments that feel clean, comfortable, and easy to call home.",
+      "Rather than overcomplicating the experience, Novum focuses on the essentials residents value most: quality interiors, practical conveniences, thoughtful layouts, and a connected Philadelphia location.",
+      "Completed in 2024, the building brings a fresh residential presence to the neighborhood with considered design and a calm sense of modern comfort.",
     ],
   },
 
   pillars: [
     {
       number: "01",
-      title: "Craft",
+      title: "Quality Interiors",
       description:
-        "Materials selected for permanence, not trend. Surfaces that age beautifully. Hardware that quietly works.",
+        "Modern finishes, clean materials, and thoughtful details create apartments that feel polished, practical, and comfortable.",
     },
     {
       number: "02",
-      title: "Place",
+      title: "Everyday Comfort",
       description:
-        "Rooted in Lancaster Avenue's energy and rhythm. Designed to complement the corridor with a fresh modern perspective.",
+        "From secure entry to practical resident conveniences, Novum is designed to make daily living feel simple and reliable.",
     },
     {
       number: "03",
-      title: "Standard",
+      title: "Connected Living",
       description:
-        "A leasing experience shaped by attentiveness, discretion, and an unwavering commitment to the highest quality.",
+        "Set in Philadelphia, Novum keeps residents close to neighborhood destinations, transit access, dining, and daily essentials.",
     },
   ],
 
   design: {
     eyebrow: "Design",
-    title: "High end, in every detail.",
+    title: "Modern spaces with a calm sense of home.",
     paragraphs: [
-      "The exterior is a study in modern restraint, designed to stand out without overwhelming. Inside, residences open with full-height glazing, engineered oak floors, and kitchens calibrated for daily use.",
-      "Every choice, from the temperature of the lobby light to the weight of the door hardware, was made to deliver an exceptional living experience from the moment you arrive.",
+      "Inside each residence, the focus is on quality, function, and comfort. Clean lines, practical layouts, and well-selected finishes give each apartment a fresh and modern feel.",
+      "Novum is not about overstatement. It is about creating a well-crafted home where everyday living feels easy, comfortable, and considered.",
     ],
     image:
       "/images/home/kitchengallery.jpg",
-    imageAlt: "Interior architectural detail",
+    imageAlt: "Modern interior at Novum Apartments",
   },
 
   timeline: [
     {
-      year: "2023",
+      year: "2021",
       title: "The Site",
-      description: "Land acquisition along the Lancaster Avenue corridor.",
+      description: "Land acquisition.",
+    },
+    {
+      year: "2022",
+      title: "Construction",
+      description: "Sixteen months of careful, considered building.",
     },
     {
       year: "2024",
-      title: "Construction",
-      description: "Eighteen months of careful, considered building.",
-    },
-    {
-      year: "2025",
       title: "Completion",
       description: "Forty residences welcomed their first neighbors.",
     },

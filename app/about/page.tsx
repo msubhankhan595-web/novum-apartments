@@ -7,9 +7,9 @@ import FinalCTA from "@/components/sections/FinalCTA";
 import { ABOUT_PAGE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Our Story | Triad UCity Apartments",
+  title: "Our Story | Novum Apartments",
   description:
-    "Discover the story behind Triad  a luxurious residence in Philadelphia, built with intention, craft, and a deep respect for the Lancaster Avenue corridor.",
+    "Discover the story behind Novum,  a modern residence in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
 };
 
 export default function AboutPage() {

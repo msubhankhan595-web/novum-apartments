@@ -4,9 +4,9 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 
 export const metadata = {
-  title: "Apply Now | Triad UCity Apartments",
+  title: "Apply Now | Novum Apartments",
   description:
-    "Review the application process and start your online leasing application for Triad UCity Apartments in Philadelphia.",
+    "Review the application process and start your online leasing application for Novum Apartments in Philadelphia.",
 };
 
 const APPLICATION_STEPS = [
@@ -40,7 +40,7 @@ export default function ApplyPage() {
         title="Apply for your new home."
         description="Complete your application online through our secure AppFolio portal."
         image="/images/home/finalctatriad.jpg"
-        imageAlt="Triad UCity Apartments exterior"
+        imageAlt="Novum Apartments exterior"
       />
 
       <section className="py-20 md:py-24 lg:py-32 bg-bone">
@@ -92,7 +92,7 @@ export default function ApplyPage() {
 
             <p className="max-w-2xl text-center text-sm md:text-base text-stone leading-relaxed">
               You will be redirected to the Vicintas/AppFolio listings page.
-              Please select Triad UCity Apartments from the available listings
+              Please select Novum Apartments from the available listings
               and follow the application steps there.
             </p>
           </div>
