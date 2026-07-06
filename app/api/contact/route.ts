@@ -18,7 +18,7 @@ export async function POST(request: Request) {
 
     // Send email to your team
     await resend.emails.send({
-      from: "Triad UCity Apartments <onboarding@resend.dev>",
+      from: "Novum Apartments <onboarding@resend.dev>",
       to: ["daphne@vicintas.com"],
       replyTo: email,
       subject: `New Inquiry from ${name} — ${interest || "General"}`,
@@ -29,7 +29,7 @@ export async function POST(request: Request) {
             New Inquiry
           </h1>
           <p style="font-size: 12px; text-transform: uppercase; letter-spacing: 3px; color: #6b6b6b; margin-bottom: 40px;">
-            Triad UCity Apartments
+            Novum Apartments
           </p>
 
           <hr style="border: none; border-top: 1px solid #e5e5e5; margin-bottom: 32px;" />
@@ -84,7 +84,7 @@ export async function POST(request: Request) {
             Reply directly to this email to respond to ${name}.
           </p>
           <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #b8956a; margin-top: 8px;">
-            Triad UCity Apartments · 3748 Lancaster Ave, Philadelphia
+            Novum Apartments · 1112 E Berks St., Philadelphia
           </p>
 
         </div>
@@ -93,9 +93,9 @@ export async function POST(request: Request) {
 
     // Send confirmation email to the visitor
     await resend.emails.send({
-      from: "Triad UCity Apartments <onboarding@resend.dev>",
+      from: "Novum Apartments <onboarding@resend.dev>",
       to: [email],
-      subject: "We received your inquiry - Triad UCity Apartments",
+      subject: "We received your inquiry - Novum Apartments",
       html: `
         <div style="font-family: Georgia, serif; max-width: 600px; margin: 0 auto; padding: 40px 20px; color: #0a0a0a;">
           
@@ -103,7 +103,7 @@ export async function POST(request: Request) {
             Thank you, ${name}.
           </h1>
           <p style="font-size: 12px; text-transform: uppercase; letter-spacing: 3px; color: #6b6b6b; margin-bottom: 40px;">
-            Triad UCity Apartments
+            Novum Apartments
           </p>
 
           <hr style="border: none; border-top: 1px solid #e5e5e5; margin-bottom: 32px;" />
@@ -120,10 +120,10 @@ export async function POST(request: Request) {
           <hr style="border: none; border-top: 1px solid #e5e5e5; margin: 40px 0 24px;" />
 
           <p style="font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #b8956a;">
-            Triad UCity Apartments
+            Novum Apartments
           </p>
           <p style="font-size: 12px; color: #6b6b6b;">
-            3748 Lancaster Ave, Philadelphia, PA 19104
+            1112 E Berks St., Philadelphia, PA 19125
           </p>
 
         </div>

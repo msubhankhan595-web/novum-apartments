@@ -134,7 +134,7 @@ export default function Location() {
                 referrerPolicy="no-referrer-when-downgrade"
                 allowFullScreen
                 className="grayscale-[40%] contrast-[0.95]"
-                title="Map of Triad UCity Apartments location"
+                title="Map of Novum Apartments location"
               />
             </div>
 

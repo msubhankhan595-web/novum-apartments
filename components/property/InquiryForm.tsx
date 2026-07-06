@@ -122,7 +122,7 @@ export default function InquiryForm({
         </div>
 
         <p className="text-[10px] text-stone leading-relaxed pt-2">
-          By submitting, you agree to be contacted by Triad UCity Apartments
+          By submitting, you agree to be contacted by Novum Apartments
           regarding your inquiry.
         </p>
       </form>

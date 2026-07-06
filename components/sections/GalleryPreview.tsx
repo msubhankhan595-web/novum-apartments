@@ -64,7 +64,7 @@ export default function GalleryPreview() {
               {/* Caption  slides up on hover */}
               <figcaption className="absolute bottom-0 left-0 right-0 p-5 md:p-6 translate-y-2 opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                 <p className="text-[10px] uppercase tracking-[0.3em] text-bone/70">
-                  Triad
+                  Novum
                 </p>
                 <p className="mt-1 font-serif text-xl md:text-2xl text-bone font-light leading-tight">
                   {img.caption}

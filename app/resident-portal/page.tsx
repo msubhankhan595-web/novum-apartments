@@ -7,9 +7,9 @@ const RESIDENT_PORTAL_URL =
   "https://account.appfolio.com/realms/foliospace/protocol/openid-connect/auth?activation_state&client_id=client-012e6a12-1c8f-4a98-94d8-20fc88af5593&portfolio_uuid&redirect_uri=https%3A%2F%2Fvicintas.appfolio.com%2Fconnect%2Fusers%2Foauth%2Fcallback&response_type=code&scope=openid&session_timed_out=false&state";
 
 export const metadata = {
-  title: "Resident Portal | Triad UCity Apartments",
+  title: "Resident Portal | Novum Apartments",
   description:
-    "Access the resident portal for Triad UCity Apartments through AppFolio.",
+    "Access the resident portal for Novum Apartments through AppFolio.",
 };
 
 export default function ResidentPortalPage() {
@@ -20,7 +20,7 @@ export default function ResidentPortalPage() {
         title="Manage your home online."
         description="Current residents can access rent payments, maintenance requests, lease information, and account details through the resident portal."
         image="/images/home/applynowcta.jpg"
-        imageAlt="Triad UCity Apartments exterior"
+        imageAlt="Novum Apartments exterior"
       />
 
       <section className="py-20 md:py-24 lg:py-32 bg-bone">

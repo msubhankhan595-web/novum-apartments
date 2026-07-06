@@ -27,7 +27,7 @@ export default function PropertiesPage() {
         title="Modern residences. Thoughtfully designed."
         description="Explore newly constructed apartments designed with quality interiors, practical comforts, and a connected Philadelphia address."
         image="/images/home/facadegallery.jpg"
-        imageAlt="Triad UCity Apartments residence interior"
+        imageAlt="Novum Apartments residence interior"
       />
 
       {/* Filter Bar */}

@@ -19,7 +19,7 @@ interface HeroProps {
 const FALLBACK_HERO_MEDIA = {
   type: "image" as "image" | "video",
   src: "/images/home/frontcta.jpg",
-  alt: "Luxury Triad UCity Apartments residence",
+  alt: "Modern Novum Apartments residence",
 };
 
 export default function Hero({

@@ -158,7 +158,7 @@ export default function ContactForm() {
       </div>
 
       <p className="text-[10px] text-stone leading-relaxed pt-2 max-w-md">
-        By submitting this form, you agree to be contacted by Triad UCity
+        By submitting this form, you agree to be contacted by Novum
         Apartments regarding your inquiry. We respect your privacy.
       </p>
     </form>

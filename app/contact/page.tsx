@@ -6,9 +6,9 @@ import ContactForm from "@/components/contact/ContactForm";
 import { CONTACT_PAGE, CONTACT, LOCATION } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Contact | Triad UCity Apartments",
+  title: "Contact | Novum Apartments",
   description:
-    "Schedule a private tour or speak with the Triad leasing team. Located at 3748 Lancaster Avenue, Philadelphia.",
+    "Schedule a private tour or speak with the Novum leasing team. Located at 1112 E Berks St., Philadelphia.",
 };
 
 export default function ContactPage() {
@@ -144,7 +144,7 @@ export default function ContactPage() {
                       referrerPolicy="no-referrer-when-downgrade"
                       allowFullScreen
                       className="grayscale-[40%] contrast-[0.95]"
-                      title="Map of Triad UCity Apartments"
+                      title="Map of Novum Apartments"
                     />
                   </div>
 

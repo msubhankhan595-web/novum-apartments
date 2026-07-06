@@ -61,7 +61,7 @@ export const RESIDENCES = [
     tagline: "Studio Residence",
     longDescription: [
       "A thoughtfully composed studio that makes the most of every square foot. Floor-to-ceiling windows fill the space with natural light, while curated finishes lend a sense of permanence that belies its size.",
-      "Ideal for the urban professional, the Studio at Triad reflects the building's larger philosophy. Refined materials, generous proportions, and a quiet sense of permanence in every detail.",
+      "Ideal for modern city living, the Studio at Novum reflects the building's larger philosophy: quality interiors, thoughtful layouts, and a calm sense of everyday comfort.",
     ],
     gallery: [
       "/images/properties/studio/studio1.jpg",
@@ -204,7 +204,7 @@ export const ABOUT = {
   ],
   image:
     "/images/home/landmark.jpg",
-  imageAlt: "Modern architectural detail at Triad UCity Apartments",
+  imageAlt: "Modern architectural detail at Novum Apartments",
   stats: [
     { value: "40", label: "Residences" },
     { value: "13", label: "Floor Plans" },
@@ -223,7 +223,7 @@ export const AMENITIES = {
 
   heroImage:
     "/images/home/rooftoptriad.jpg",
-  heroImageAlt: "Rooftop terrace at Triad UCity Apartments",
+  heroImageAlt: "Rooftop terrace at Novum Apartments",
   heroCaption: "Rooftop, above the city, beyond the ordinary.",
 
   items: [
@@ -401,7 +401,7 @@ export const FINAL_CTA = {
     "Schedule a private tour or speak with our leasing team. We're here whenever you're ready.",
   image:
     "/images/home/finalctatriad.jpg",
-  imageAlt: "Architectural exterior of Triad UCity Apartments at dusk",
+  imageAlt: "Architectural exterior of Novum Apartments at dusk",
   primaryCta: {
     label: "Schedule a Tour",
     href: "/contact",
@@ -435,7 +435,7 @@ export const PROMO_BAR = {
       href: "/properties",
     },
     {
-      text: "Newly completed in 2024 · Lancaster Avenue, Philadelphia",
+      text: "Newly completed in 2024 · Philadelphia",
       linkText: "Discover Novum",
       href: "/about",
     },
@@ -531,10 +531,10 @@ export const GALLERY_PAGE = {
     eyebrow: "Gallery",
     title: "Light, surface, space.",
     description:
-      "A visual survey of the building  interiors, amenities, and the moments that shape life at Triad.",
+      "A visual survey of the building  interiors, residences, and the moments that shape life at Novum.",
     image:
       "/images/home/loungegallery.jpg",
-    imageAlt: "Architectural interior at Triad",
+    imageAlt: "Architectural interior at Novum",
   },
 
   categories: [
@@ -652,10 +652,10 @@ export const CONTACT_PAGE = {
     eyebrow: "Contact",
     title: "Let's begin a conversation.",
     description:
-      "Reach out to schedule a private tour, request availability, or ask anything about life at Triad.",
+      "Reach out to schedule a private tour, request availability, or ask anything about life at Novum.",
     image:
       "/images/home/contactcta.jpg",
-    imageAlt: "Triad UCity Apartments exterior at twilight",
+    imageAlt: "Novum Apartments exterior at twilight",
   },
 
   formIntro: {

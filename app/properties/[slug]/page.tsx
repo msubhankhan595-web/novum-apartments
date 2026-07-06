@@ -23,14 +23,14 @@ export async function generateMetadata({
   const residence = RESIDENCES.find((r) => r.slug === slug);
 
   if (!residence) {
-    return { title: "Residence Not Found | Triad UCity Apartments" };
+    return { title: "Residence Not Found | Novum Apartments" };
   }
 
   return {
     title: `${residence.name} — ${residence.type}`,
     description: residence.description,
     openGraph: {
-      title: `${residence.name} | Triad UCity Apartments`,
+      title: `${residence.name} | Novum Apartments`,
       description: residence.description,
       images: [{ url: residence.image }],
     },
