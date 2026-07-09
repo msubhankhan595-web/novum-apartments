@@ -19,7 +19,7 @@ export default function ResidentPortalPage() {
         eyebrow="Resident Portal"
         title="Manage your home online."
         description="Current residents can access rent payments, maintenance requests, lease information, and account details through the resident portal."
-        image="/images/home/applynowcta.jpg"
+        image="/images/home/kitchengallerynovum.jpg"
         imageAlt="Novum Apartments exterior"
       />
 

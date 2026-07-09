@@ -26,7 +26,7 @@ export default function PropertiesPage() {
         eyebrow="The Residences"
         title="Modern residences. Thoughtfully designed."
         description="Explore newly constructed apartments designed with quality interiors, practical comforts, and a connected Philadelphia address."
-        image="/images/home/facadegallery.jpg"
+        image="/images/home/lightandstonenovum.jpg"
         imageAlt="Novum Apartments residence interior"
       />
 

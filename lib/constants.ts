@@ -54,9 +54,9 @@ export const RESIDENCES = [
     category: "studio",
     type: "Studio · 1 Bath",
     sqft: "400 - 550 sqft",
-    priceFrom: "From $1,700/mo",
+    priceFrom: "From $1,500/mo",
     image:
-      "/images/home/Studiofront.jpeg",
+      "/images/home/studioone.jpg",
     description: "An efficient layout designed for refined city living.",
     tagline: "Studio Residence",
     longDescription: [
@@ -64,9 +64,9 @@ export const RESIDENCES = [
       "Ideal for modern city living, the Studio at Novum reflects the building's larger philosophy: quality interiors, thoughtful layouts, and a calm sense of everyday comfort.",
     ],
     gallery: [
-      "/images/properties/studio/studio1.jpg",
-      "/images/properties/studio/studio2.jpg",
-      "/images/properties/studio/studio3.jpg",
+      "/images/home/studioone.jpg",
+      "/images/properties/studio/studiotwo.jpg",
+      "/images/properties/studio/studiothree.jpg",
     ],
     features: [
       "400 to 550 sqft",
@@ -79,7 +79,7 @@ export const RESIDENCES = [
       "Stainless appliances",
     ],
     floorPlan:
-      "/images/properties/studio/studio-floor-plan.PNG",
+      "/images/properties/studio/studiofloorplannvm.png",
   },
   {
     slug: "one-bedroom",
@@ -87,9 +87,9 @@ export const RESIDENCES = [
     category: "one-bedroom",
     type: "1 Bedroom · 1 Bath",
     sqft: "600 - 800 sqft",
-    priceFrom: "From $1,925/mo",
+    priceFrom: "From $1,850/mo",
     image:
-      "/images/home/1bedfront.jpg",
+      "/images/home/1bone.jpg",
     description: "A timeless one-bedroom retreat with elegant proportions.",
     tagline: "1 Bedroom Residence",
     longDescription: [
@@ -97,9 +97,9 @@ export const RESIDENCES = [
       "Every detail from the warm oak floors to the considered placement of light invites you to linger.",
     ],
     gallery: [
-      "/images/properties/the-one/1bed1.jpg",
-      "/images/properties/the-one/1bed2.jpg",
-      "/images/properties/the-one/1bed3.jpg",
+      "/images/home/1bone.jpg",
+      "/images/properties/the-one/1btwo.jpg",
+      "/images/properties/the-one/1bthree.jpg",
     ],
     features: [
       "600 to 800 sqft",
@@ -112,7 +112,7 @@ export const RESIDENCES = [
       "Stainless appliances",
     ],
     floorPlan:
-      "/images/properties/the-one/the-one-floor-plan.png",
+      "/images/properties/the-one/1bfloorplannvm.png",
   },
   {
     slug: "two-bedroom",
@@ -120,9 +120,9 @@ export const RESIDENCES = [
     category: "two-bedroom",
     type: "2 Bedroom · 2 Bath",
     sqft: "900 - 1,150 sqft",
-    priceFrom: "From $2,650/mo",
+    priceFrom: "From $2,250/mo",
     image:
-      "/images/home/2bedfront.jpeg",
+      "/images/home/2bone.jpg",
     description: "Our signature residence, expansive, refined, unforgettable.",
     tagline: "2 Bedroom Residence",
     longDescription: [
@@ -130,9 +130,9 @@ export const RESIDENCES = [
       "Available in two configurations: 2 Bedroom with 2 Bathrooms, and 2 Bedroom with 1 Bathroom. Both designed with the same commitment to refined living.",
     ],
     gallery: [
-      "/images/properties/the-pair/2bed1.jpg",
-      "/images/properties/the-pair/2bed2.jpg",
-      "/images/properties/the-pair/2bed3.jpg",
+      "/images/home/1bone.jpg",
+      "/images/properties/the-pair/2btwo.jpg",
+      "/images/properties/the-pair/2bthree.jpg",
     ],
     features: [
       "900 to 1,150 sqft",
@@ -145,7 +145,7 @@ export const RESIDENCES = [
       "Premium stainless appliances",
     ],
     floorPlan:
-      "/images/properties/the-pair/the-pair-floor-plan.png",
+      "/images/properties/the-pair/2bfloorplannvm.png",
   },
   //{
     //slug: "three-bedroom",
@@ -203,7 +203,7 @@ export const ABOUT = {
     "Completed in 2024, the building offers a fresh residential experience with considered layouts, refined finishes, and practical comforts throughout. Every detail is designed to support modern city living without feeling overstated.",
   ],
   image:
-    "/images/home/landmark.jpg",
+    "/images/home/landmarknovum.jpg",
   imageAlt: "Modern architectural detail at Novum Apartments",
   stats: [
     { value: "40", label: "Residences" },
@@ -222,7 +222,7 @@ export const AMENITIES = {
     "Designed to make daily life feel effortless, social, and entirely your own.",
 
   heroImage:
-    "/images/home/rooftoptriad.jpg",
+    "/images/home/rooftopnvmfinal.jpeg",
   heroImageAlt: "Rooftop terrace at Novum Apartments",
   heroCaption: "Rooftop, above the city, beyond the ordinary.",
 
@@ -288,39 +288,39 @@ export const GALLERY_PREVIEW = {
 
   images: [
     {
-      src: "/images/home/livingroomgallery.jpeg",
+      src: "/images/home/livingroomgallerynovum.jpg",
       alt: "Sunlit living room with refined furnishings",
       caption: "The Living Room",
       size: "tall", // tall | short | medium
     },
     {
-      src: "/images/home/kitchengallery.jpg",
+      src: "/images/home/kitchengallerynovum.jpg",
       alt: "Minimalist kitchen with stone counters",
       caption: "The Kitchen",
       size: "short",
     },
     {
-      src: "/images/home/gymgallery.jpg",
+      src: "/images/home/inhouselaundry.jpg",
       alt: "Bedroom with soft natural light",
-      caption: "The Gym",
+      caption: "In-house Laundry",
       size: "medium",
     },
     {
-      src: "/images/home/bathgallery.jpg",
+      src: "/images/home/bathgallerynovum.jpg",
       alt: "Bathroom with timeless fixtures",
       caption: "The Bath",
       size: "tall",
     },
     {
-      src: "/images/home/lightandstonegallery.jpg",
+      src: "/images/home/lightandstonenovum.jpg",
       alt: "Architectural detail at sunset",
       caption: "Light & Stone",
       size: "short",
     },
     {
-      src: "/images/home/loungegallery.jpg",
+      src: "/images/home/mailcenter.jpg",
       alt: "Open lounge with curated decor",
-      caption: "Lounge/Co-working",
+      caption: "Mail-center",
       size: "short",
     },
   ],
@@ -400,7 +400,7 @@ export const FINAL_CTA = {
   description:
     "Schedule a private tour or speak with our leasing team. We're here whenever you're ready.",
   image:
-    "/images/home/finalctatriad.jpg",
+    "/images/home/frontctanovum.jpg",
   imageAlt: "Architectural exterior of Novum Apartments at dusk",
   primaryCta: {
     label: "Schedule a Tour",
@@ -452,7 +452,7 @@ export const ABOUT_PAGE = {
     description:
       "Novum brings newly constructed apartments, quality interiors, and everyday comfort to a connected Philadelphia address.",
     image:
-      "/images/home/rooftoptriad.jpg",
+      "/images/home/rooftopnvmfinal.jpeg",
     imageAlt: "Architectural detail of Novum Apartments",
   },
 
@@ -495,7 +495,7 @@ export const ABOUT_PAGE = {
       "Novum is not about overstatement. It is about creating a well-crafted home where everyday living feels easy, comfortable, and considered.",
     ],
     image:
-      "/images/home/kitchengallery.jpg",
+      "/images/home/kitchengallerynovum.jpg",
     imageAlt: "Modern interior at Novum Apartments",
   },
 
@@ -533,7 +533,7 @@ export const GALLERY_PAGE = {
     description:
       "A visual survey of the building  interiors, residences, and the moments that shape life at Novum.",
     image:
-      "/images/home/loungegallery.jpg",
+      "/images/home/galleryfrontcta.jpg",
     imageAlt: "Architectural interior at Novum",
   },
 
@@ -547,35 +547,35 @@ export const GALLERY_PAGE = {
   images: [
     // Interiors
     {
-      src: "/images/home/livingroomgallery.jpeg",
+      src: "/images/home/livingroomgallerynovum.jpg",
       alt: "Sunlit living room with refined furnishings",
       caption: "The Living Room",
       category: "interiors",
       size: "tall",
     },
     {
-      src: "/images/home/kitchengallery.jpg",
+      src: "/images/home/kitchengallerynovum.jpg",
       alt: "Minimalist kitchen with stone counters",
       caption: "The Kitchen",
       category: "interiors",
       size: "short",
     },
+    //{
+      //src: "/images/home/2bedfront.jpeg",
+      //alt: "Bedroom with soft natural light",
+      //caption: "The Bedroom",
+      //category: "interiors",
+      //size: "medium",
+    //},
     {
-      src: "/images/home/2bedfront.jpeg",
-      alt: "Bedroom with soft natural light",
-      caption: "The Bedroom",
-      category: "interiors",
-      size: "medium",
-    },
-    {
-      src: "/images/home/bathgallery.jpg",
+      src: "/images/home/bathgallerynovum.jpg",
       alt: "Bathroom with timeless fixtures",
       caption: "The Bath",
       category: "interiors",
       size: "tall",
     },
     {
-      src: "/images/home/lightandstonegallery.jpg",
+      src: "/images/home/lightandstonenovum.jpg",
       alt: "Quiet bedroom in morning light",
       caption: "Morning Light",
       category: "interiors",
@@ -584,37 +584,37 @@ export const GALLERY_PAGE = {
 
     // Amenities
     {
-      src: "/images/home/rooftoptriad.jpg",
+      src: "/images/home/rooftopnvmfinal.jpeg",
       alt: "Panaromic Rooftop",
       caption: "The Rooftop",
       category: "amenities",
       size: "tall",
     },
     {
-      src: "/images/home/laundrygallery.jpg",
+      src: "/images/home/inhouselaundry.jpg",
       alt: "In house Laundry for uncompromised cleanliness",
       caption: "In-house Laundry",
       category: "amenities",
       size: "short",
     },
+    //{
+      //src: "/images/home/gymgallery.jpg",
+      //alt: "Modern fitness studio with natural light",
+      //caption: "The Gym",
+      //category: "amenities",
+      //size: "medium",
+    //},
     {
-      src: "/images/home/gymgallery.jpg",
-      alt: "Modern fitness studio with natural light",
-      caption: "The Gym",
-      category: "amenities",
-      size: "medium",
-    },
-    {
-      src: "/images/home/loungegallery.jpg",
+      src: "/images/home/mailcenter.jpg",
       alt: "Lounge/Co-working",
-      caption: "Lounge/Co-working",
+      caption: "Mail-center",
       category: "amenities",
       size: "short",
     },
 
     // Exterior
     {
-      src: "/images/home/facadegallery.jpg",
+      src: "/images/home/frontctanovum.jpg",
       alt: "Exterior facade at twilight",
       caption: "The Facade",
       category: "exterior",
@@ -654,7 +654,7 @@ export const CONTACT_PAGE = {
     description:
       "Reach out to schedule a private tour, request availability, or ask anything about life at Novum.",
     image:
-      "/images/home/contactcta.jpg",
+      "/images/home/frontctanovumnew.jpg",
     imageAlt: "Novum Apartments exterior at twilight",
   },
 

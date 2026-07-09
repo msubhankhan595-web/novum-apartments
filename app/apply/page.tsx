@@ -1,103 +1,78 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/sections/PageHero";
-import Container from "@/components/ui/Container";
-import SectionHeading from "@/components/ui/SectionHeading";
-import Button from "@/components/ui/Button";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Apply Now | Novum Apartments",
   description:
-    "Review the application process and start your online leasing application for Novum Apartments in Philadelphia.",
+    "Start your online leasing application for Novum Apartments in Philadelphia.",
 };
 
-const APPLICATION_STEPS = [
-  {
-    number: "1",
-    title: "Complete Application",
-    description: "Fill out your personal information, employment details, and rental history.",
-  },
-  {
-    number: "2",
-    title: "Pay Application Fee",
-    description: "Submit the $50 processing fee securely by credit or debit card.",
-  },
-  {
-    number: "3",
-    title: "Background & Credit Check",
-    description: "Our team will review your application within 24 to 48 hours.",
-  },
-  {
-    number: "4",
-    title: "Approval & Lease",
-    description: "Once approved, you can sign your lease and schedule your move-in.",
-  },
-];
+const primaryButtonClass =
+  "group relative inline-flex items-center justify-center overflow-hidden border border-ink bg-ink px-8 py-4 text-xs font-medium uppercase tracking-[0.3em] text-white transition duration-500 before:absolute before:inset-0 before:-translate-x-full before:bg-white before:transition-transform before:duration-500 hover:text-ink hover:before:translate-x-0";
+
+const secondaryButtonClass =
+  "group relative inline-flex items-center justify-center overflow-hidden border border-ink px-8 py-4 text-xs font-medium uppercase tracking-[0.3em] text-ink transition duration-500 before:absolute before:inset-0 before:-translate-x-full before:bg-ink before:transition-transform before:duration-500 hover:text-white hover:before:translate-x-0";
 
 export default function ApplyPage() {
   return (
-    <>
+    <main>
       <PageHero
         eyebrow="Apply Now"
-        title="Apply for your new home."
-        description="Complete your application online through our secure AppFolio portal."
-        image="/images/home/finalctatriad.jpg"
+        title="Begin your application."
+        description="Start your online application through AppFolio."
+        image="/images/home/rooftopnvmfinal.jpeg"
         imageAlt="Novum Apartments exterior"
       />
 
-      <section className="py-20 md:py-24 lg:py-32 bg-bone">
-        <Container size="wide">
-          <SectionHeading
-            eyebrow="Application"
-            title="How it works."
-            description="Before continuing to the application portal, please review the leasing application process below."
-            align="center"
-          />
+      <section className="py-20 md:py-24 bg-bone">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <p className="text-xs uppercase tracking-[0.35em] text-ink/50">
+            Online Application
+          </p>
 
-          <div className="mt-14 max-w-4xl mx-auto bg-mist border border-ink/10 p-8 md:p-12 lg:p-16">
-            <div className="space-y-0">
-              {APPLICATION_STEPS.map((step, index) => (
-                <div key={step.number}>
-                  <div className="grid grid-cols-[48px_1fr] md:grid-cols-[64px_1fr] gap-5 md:gap-8 items-start py-6">
-                    <div className="flex h-10 w-10 md:h-12 md:w-12 items-center justify-center rounded-full bg-stone text-bone font-serif text-xl md:text-2xl">
-                      {step.number}
-                    </div>
+          <h2 className="mt-4 text-4xl md:text-5xl font-serif text-ink">
+            Apply for a Novum residence.
+          </h2>
 
-                    <div>
-                      <p className="text-base md:text-lg text-stone leading-relaxed">
-                        <span className="font-semibold text-ink">
-                          {step.title}
-                        </span>{" "}
-                        - {step.description}
-                      </p>
-                    </div>
-                  </div>
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-ink/65">
+            Click below to open Novum’s available residences.
+          </p>
 
-                  {index < APPLICATION_STEPS.length - 1 && (
-                    <div className="ml-[68px] md:ml-[96px] h-px bg-ink/15" />
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="mt-12 flex flex-col items-center gap-5">
-            <Button
-              href="https://vicintas.appfolio.com/listings"
-              variant="primary"
-              size="md"
-              //target="_blank"
-              //rel="noopener noreferrer"
+          <div className="mt-10">
+            <a
+              href="/apply/listings"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={primaryButtonClass}
             >
-              Start Application
-            </Button>
-
-            <p className="max-w-2xl text-center text-sm md:text-base text-stone leading-relaxed">
-              You will be redirected to the Vicintas/AppFolio listings page.
-              Please select Novum Apartments from the available listings
-              and follow the application steps there.
-            </p>
+              <span className="relative z-10">Apply Now</span>
+            </a>
           </div>
-        </Container>
+        </div>
       </section>
-    </>
+
+      <section className="py-20 md:py-24 bg-white">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <p className="text-xs uppercase tracking-[0.35em] text-ink/50">
+            Questions Before Applying?
+          </p>
+
+          <h2 className="mt-4 text-4xl md:text-5xl font-serif text-ink">
+            Speak with our leasing team.
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-ink/65">
+            If you have questions about availability, pricing, floor plans, or
+            the application process, our leasing team is here to help.
+          </p>
+
+          <div className="mt-10">
+            <a href="/contact" className={secondaryButtonClass}>
+              <span className="relative z-10">Contact Leasing</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }

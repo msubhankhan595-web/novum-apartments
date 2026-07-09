@@ -18,7 +18,7 @@ interface HeroProps {
 // Fallback hero media used when Sanity does not have an uploaded image yet.
 const FALLBACK_HERO_MEDIA = {
   type: "image" as "image" | "video",
-  src: "/images/home/frontcta.jpg",
+  src: "/images/home/frontctanovumnew.jpg",
   alt: "Modern Novum Apartments residence",
 };
 
