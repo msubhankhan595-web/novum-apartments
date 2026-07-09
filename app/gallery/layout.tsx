@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "Newly constructed modern residences in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
     images: [
       {
-        url: "/images/home/finalctatriad.jpg",
+        url: "/images/home/frontctanovumnew.jpg",
         width: 1200,
         height: 630,
         alt: "Novum Apartments — Modern Living in Philadelphia",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Novum Apartments | Modern Living in Philadelphia",
     description:
       "Newly constructed modern residences in Philadelphia designed with quality interiors, thoughtful layouts, and everyday comfort.",
-    images: ["/images/home/finalctatriad.jpg"],
+    images: ["/images/home/frontctanovumnew.jpg"],
   },
 
   robots: {
