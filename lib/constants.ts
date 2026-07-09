@@ -246,7 +246,7 @@ export const AMENITIES = {
         "Indoor parking and convenient access for everyday commuters.",
     },
     {
-      icon: "Laptop",
+      icon: "ElevatorIcon",
       title: "Elevator Access",
       description:
         "Convenient access throughout the building for everyday ease.", //A quiet, well-equipped space for focused work without leaving home.",
@@ -263,7 +263,7 @@ export const AMENITIES = {
         "Secure entry, surveillance, and peace of mind around the clock.",
     },
     {
-      icon: "Dumbbell", 
+      icon: "CookingPot", 
       title: "Modern Kitchens", 
       description:
         "Thoughtful finishes, efficient layouts, and stainless steel appliances.",
