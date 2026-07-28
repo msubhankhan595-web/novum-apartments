@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Novum Apartments <onboarding@resend.dev>",
+      from: "Novum Apartments <noreply@vicintas.com>",
       to: ["group@vicintas.com"],
       replyTo: email,
       subject: `New Novum Inquiry from ${name} — ${interest || "General"}`,
@@ -108,7 +108,7 @@ export async function POST(request: Request) {
 
     try {
       await resend.emails.send({
-        from: "Novum Apartments <onboarding@resend.dev>",
+        from: "Novum Apartments <noreply@vicintas.com>",
         to: [email],
         subject: "We received your inquiry - Novum Apartments",
         html: `
