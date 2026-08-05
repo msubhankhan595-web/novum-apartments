@@ -5,7 +5,6 @@ import { Menu } from "lucide-react";
 import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 import MobileMenu from "./MobileMenu";
-import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import { cn } from "@/lib/utils";
 import { PROMO_BAR } from "@/lib/constants";
@@ -13,7 +12,7 @@ import { PROMO_BAR } from "@/lib/constants";
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileOpen, setIsMobileOpen] = useState(false);
-  const [promoVisible, setPromoVisible] = useState(false);
+  const [promoVisible, setPromoVisible] = useState(PROMO_BAR.enabled);
 
   // Track scroll
   useEffect(() => {
@@ -23,19 +22,18 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Track promo bar state
+  // Track promo bar close for the current page visit only
   useEffect(() => {
-    if (!PROMO_BAR.enabled) return;
-    const wasDismissed = localStorage.getItem("serpentine_promo_dismissed");
-    setPromoVisible(!wasDismissed);
+    setPromoVisible(PROMO_BAR.enabled);
 
     const onDismiss = () => setPromoVisible(false);
     window.addEventListener("promo:dismissed", onDismiss);
+
     return () => window.removeEventListener("promo:dismissed", onDismiss);
   }, []);
 
-  // Promo bar adds ~40px on mobile, ~44px on desktop
-  const topOffset = promoVisible ? "var(--promo-h, 40px)" : "0px";
+  // Promo bar height is around 50px
+  const topOffset = promoVisible ? "50px" : "0px";
 
   return (
     <>

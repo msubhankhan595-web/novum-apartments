@@ -6,33 +6,26 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ArrowRight } from "lucide-react";
 import { PROMO_BAR } from "@/lib/constants";
 
-const DISMISS_KEY = "serpentine_promo_dismissed";
-
 /**
  * PromoBar  slim luxury announcement bar above the navbar.
  */
 export default function PromoBar() {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(PROMO_BAR.enabled);
   const [index, setIndex] = useState(0);
   const messages = PROMO_BAR.messages;
 
   useEffect(() => {
-    if (!PROMO_BAR.enabled) return;
-    const wasDismissed = localStorage.getItem(DISMISS_KEY);
-    if (!wasDismissed) setIsVisible(true);
-  }, []);
-
-  useEffect(() => {
     if (!isVisible || messages.length <= 1 || PROMO_BAR.rotationMs === 0) return;
+
     const timer = setInterval(() => {
       setIndex((prev) => (prev + 1) % messages.length);
     }, PROMO_BAR.rotationMs);
+
     return () => clearInterval(timer);
   }, [isVisible, messages.length]);
 
   const handleDismiss = () => {
     setIsVisible(false);
-    localStorage.setItem(DISMISS_KEY, "true");
     window.dispatchEvent(new Event("promo:dismissed"));
   };
 
