@@ -33,7 +33,7 @@ export default function Navbar() {
   }, []);
 
   // Promo bar height is around 50px
-  const topOffset = promoVisible ? "50px" : "0px";
+  const topOffset = promoVisible ? "49px" : "0px";
 
   return (
     <>
